@@ -30,6 +30,7 @@ font-family: 'Libre Baskerville', serif;
 #mainNavbar {
   font-size: 1.5rem;
   font-weight: 100;
+  position: sticky;
 }
 #mainNavbar .nav-link {
   color: #35383a;
