@@ -1,7 +1,7 @@
 body {
   background: #5cdb95;
 font-family: 'Libre Baskerville', serif;
-padding-bottom: 25rem;
+
 
 }
 #top{
@@ -76,7 +76,7 @@ h1{
 .navbar.scrolled {
   background: #8ee4af;
   transition: background 1000ms;
-  transition-timing-function: ease-out;
+  
   
 }
 
@@ -141,11 +141,3 @@ body{
 
 }
 
-@media (max-width: 767px){
-  .navbar.scrolled{
-    width: 30%;
-  }
-  body{
-    padding-bottom: 0px;
-  }
-}
