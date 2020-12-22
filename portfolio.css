@@ -1,0 +1,151 @@
+body {
+  background: #5cdb95;
+font-family: 'Libre Baskerville', serif;
+padding-bottom: 25rem;
+
+}
+#top{
+    height: 5em;
+    width: 100%;
+}
+
+.blurb h2 {
+  color: #05386b;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #05386b;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-link {
+  color: #35383a;
+  
+}
+#mainNavbar .nav-link:hover {
+color:white}
+
+.selected{
+    text-decoration: underline white;
+   
+}
+
+.selfie{
+  height: 15rem;
+  border-radius: 20%;
+}
+
+.icon{
+  max-width: 30%;
+}
+
+.php{
+  max-width: 50%;
+}
+
+.mysql{
+  max-width: 60%;
+  
+}
+
+.link:hover{
+  text-decoration: none;
+}
+
+#headingGroup h1 {
+  font-size: 4rem;
+  font-weight: 100;
+   color: #05386b;
+}
+h1{
+  color: #05386b;
+}
+.navbar.scrolled {
+  background: #8ee4af;
+  transition: background 1000ms;
+  transition-timing-function: ease-out;
+  
+}
+
+.hide {
+  display: none;
+  
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  
+ 
+}
+
+.secret{
+  display:block ;
+  width: 20%;
+  height: 20%;
+ margin-left: 40%;
+ margin-right: auto;
+ border: solid black;
+ 
+ 
+}
+
+.list-group-item{
+  background-color:#5cdb95 ;
+  border: none;
+  text-decoration: underline;
+}
+
+
+@media (max-width: 1500px) {
+  #headingGroup h1 {
+    font-size: 3rem;
+    font-weight: 100;
+  }
+  
+
+}
+
+@media (max-width: 1200px) {
+  #headingGroup h1 {
+    font-size: 2.5rem;
+    font-weight: 100;
+  }
+  .icon{
+  display: none;
+}
+
+.php{
+  display: none;
+}
+.mysql{
+display: none;}
+.secret{
+  display: none;
+}
+body{
+  padding-bottom: 0px;
+}
+
+}
+
+@media (max-width: 767px){
+  .navbar.scrolled{
+    width: 30%;
+  }
+  body{
+    padding-bottom: 0px;
+  }
+}
