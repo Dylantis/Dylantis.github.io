@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(0, 255, 255);
+}
+
+
+#card{
+    border: 2px solid black;
+    border-radius: 5%;
+    height: 350px;
+    box-shadow: black 10px 10px 10px 1px;
+    perspective: 1000px ;
+    background-color: white;
+    
+}
+
+
+
+.flippy{
+    animation: flippy 3s ;
+}
+
+@keyframes flippy{
+    20%{
+        transform: rotateY(90deg);
+    }
+}
+
+
+
+.first{
+    position: relative;
+    
+}
+
+
+#front{
+    font-size: 50px;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+
+.disabled{
+    display: none;
+}
+
+@media(max-width:600px){
+    #card{
+        width:135px;
+    }
+}
+
+@media(max-width:1000px){
+    .first{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+  .first  {
+    font-size: 4rem;
+    font-weight: 100;
+
+  }
+  .second{
+     font-size: 4rem;
+    font-weight: 100;
+
+  }
+  .plus{
+      font-size: 3rem;
+    font-weight: 100;
+    
+   
+  }
+  #card{
+      height: 300px;
+  }
+  .submit{
+      font-size: 2rem;
+  }
+  .heading{
+      font-size: 3rem;
+  }
+  .guess{
+      font-size: 2rem;;
+  }
+  .feedback{
+      font-size: 3rem;
+  }
+  
+}
