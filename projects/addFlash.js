@@ -1,8 +1,9 @@
 const form = document.querySelector('input');
 const btn = document.querySelector('button')
 const card = document.querySelector('#card')
-const front = document.querySelector('#front')
+const trumpets = document.getElementById('trumpets')
 const tryAgain = document.querySelector('label')
+
 
 
 btn.onclick = function () {
@@ -33,6 +34,7 @@ btn.onclick = function () {
                     tryAgain.classList.remove('text-danger')
                     tryAgain.classList.add('text-success')
                     btn.classList.remove('disabled')
+                    trumpets.play();
                 }
             }
         })
@@ -40,8 +42,8 @@ btn.onclick = function () {
         // make random digit generator switch with card flip
         setTimeout(function () {
             document.querySelector('.first').innerHTML = x;
-            document.querySelector('.plus').innerHTML = "+";
-            document.querySelector('.second').innerHTML = y;
+            // document.querySelector('.plus').innerHTML = "+";
+            document.querySelector('.second').innerHTML = "+" + y;
         }, 500)
 
         // make button appear if answer is correct
