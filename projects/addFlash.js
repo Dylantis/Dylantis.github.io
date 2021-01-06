@@ -12,7 +12,7 @@ btn.onclick = function () {
     setTimeout(function () {
         card.classList.remove('flippy');
     }, 1900);
-
+    btn.classList.add('disabled')
     // radom single digit generator
     function addition(x, y) {
         x = Math.floor(Math.random() * 9) + 1;
