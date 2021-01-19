@@ -1,5 +1,5 @@
 const form = document.querySelector('input');
-const btn = document.querySelector('button')
+const btn = document.querySelector('.submit')
 const card = document.querySelector('#card')
 const trumpets = document.getElementById('trumpets')
 const tryAgain = document.querySelector('label')
