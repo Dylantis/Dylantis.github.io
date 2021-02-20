@@ -3,7 +3,7 @@ const creeper = document.querySelectorAll('.creep')
 
 const options = {
     root: null,
-    threshold: .1,
+    threshold: 0,
     rootMargin: "-150px"
 };
 
